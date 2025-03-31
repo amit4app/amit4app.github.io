@@ -20,7 +20,7 @@ const Home: React.FC = () => {
             </div> */}
           </div>
           <div className="col-lg-6 order-1 order-lg-2 hero-img">
-            <img src="/assets/img/hero-img.png" className="img-fluid animated" alt="Hero" />
+            <img src={`${process.env.PUBLIC_URL}/assets/img/hero-img.png`} className="img-fluid animated" alt="Hero" />
           </div>
         </div>
       </div>

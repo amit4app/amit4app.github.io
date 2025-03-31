@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
           <div className="row gy-4">
             <div className="col-lg-12 text-center">
               <img
-                src="/assets/projects/cab-booking/cab_booking_app.png"
+                src={`${process.env.PUBLIC_URL}/assets/projects/cab-booking/cab_booking_app.png`}
                 alt="Cab Booking App Screens"
                 className="img-fluid"
               />
@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
 
         {/* Zenga TV App */}
         <div className="project mb-5">
-          <h3>Zenga TV App</h3>
+          <h3>OTT Entertainment App</h3>
           <p>
             A feature-rich OTT streaming app that provides users access to a
             vast collection of movies, TV shows, and live television channels.
@@ -43,8 +43,8 @@ const Projects: React.FC = () => {
           <div className="row gy-4">
             <div className="col-lg-12 text-center">
               <img
-                src="/assets/projects/zengatv/zengatv.png"
-                alt="Zenga TV App Screens"
+                src={`${process.env.PUBLIC_URL}/assets/projects/ott_app/ottapp.png`}
+                alt="OTT App Screens"
                 className="img-fluid"
               />
             </div>
@@ -64,7 +64,7 @@ const Projects: React.FC = () => {
           <div className="row gy-4">
             <div className="col-lg-12 text-center">
               <img
-                src="/assets/projects/baker_app/bakerapp.png"
+                 src={`${process.env.PUBLIC_URL}/assets/projects/baker_app/bakerapp.png`}
                 alt="Baker App Screens"
                 className="img-fluid"
               />
@@ -89,21 +89,21 @@ const Projects: React.FC = () => {
           >
             <div className="col-lg-4 col-md-6 text-center">
               <img
-                src="/assets/projects/doctor_app/doctor1.png"
+                src={`${process.env.PUBLIC_URL}/assets/projects/doctor_app/doctor1.png`}
                 alt="Doctor App Screen 1"
                 className="img-fluid p-2 bg-white shadow rounded"
               />
             </div>
             <div className="col-lg-4 col-md-6 text-center">
               <img
-                src="/assets/projects/doctor_app/doctor2.png"
+                src={`${process.env.PUBLIC_URL}/assets/projects/doctor_app/doctor2.png`}
                 alt="Doctor App Screen 2"
                 className="img-fluid p-2 bg-white shadow rounded"
               />
             </div>
             <div className="col-lg-4 col-md-6 text-center">
               <img
-                src="/assets/projects/doctor_app/doctor3.png"
+                src={`${process.env.PUBLIC_URL}/assets/projects/doctor_app/doctor3.png`}
                 alt="Doctor App Screen 3"
                 className="img-fluid p-2 bg-white shadow rounded"
               />
