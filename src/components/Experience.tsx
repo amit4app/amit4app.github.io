@@ -14,7 +14,7 @@ const Experience: React.FC = () => {
           <h3>Lead Mobile Developer</h3>
           <p><strong>Duration:</strong> 2019 - Present</p>
           <p>
-            Leading mobile development projects, ensuring high-quality and scalable solutions using <strong>React Native, Vue Ionic, and Native Android (Java/Kotlin)</strong>.
+            Leading mobile development projects, ensuring high-quality and scalable solutions using <strong>React Native, Vue Ionic and Native Android (Java/Kotlin)</strong>.
           </p>
           <ul>
             <li>Developed and maintained cross-platform mobile applications.</li>
