@@ -43,7 +43,7 @@ const Blog: React.FC = () => {
             <div className="card shadow-sm p-3 mb-4">
               {/* Thumbnail Image */}
               <img 
-                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1738240569018/3e1cf6a2-architecture-cover.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" 
+                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1753899980060/a74cd5a2-d0a3-4eab-928d-f18cca78bf3b.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" 
                 alt="Android Architecture Blog" 
                 className="card-img-top rounded"
                 style={{ maxHeight: "200px", objectFit: "cover" }}
