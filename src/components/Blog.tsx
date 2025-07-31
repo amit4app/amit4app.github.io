@@ -18,7 +18,7 @@ const Blog: React.FC = () => {
                 src="/assets/img/blog/navigation-cover.png" 
                 alt="Blog Thumbnail" 
                 className="card-img-top rounded"
-                style={{ maxHeight: "200px", objectFit: "cover" }}
+                style={{ maxHeight: "350px", objectFit: "cover" }}
               />
 
               <div className="card-body">
@@ -46,7 +46,7 @@ const Blog: React.FC = () => {
                 src="/assets/img/blog/android-architectures.png" 
                 alt="Android Architecture Blog" 
                 className="card-img-top rounded"
-                style={{ maxHeight: "300px", objectFit: "cover" }}
+                style={{ maxHeight: "350px", objectFit: "cover" }}
               />
 
               <div className="card-body">
