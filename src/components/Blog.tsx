@@ -83,12 +83,12 @@ const Blog: React.FC = () => {
                 How I Built a Video Upload Feature That Never Fails — Thanks to WorkManager
                 </p>
                 <a 
-                  href="https://amit4app.hashnode.dev/mvc-mvp-mvvm-clean-and-mvi-explained" 
+                  href="https://medium.com/@amit4app/how-i-built-a-video-upload-feature-that-never-fails-thanks-to-workmanager-67416b8e721a" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn btn-primary"
                 >
-                  Read on medium
+                  Read on Medium
                 </a>
               </div>
             </div>
