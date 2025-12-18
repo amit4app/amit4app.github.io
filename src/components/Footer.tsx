@@ -1,13 +1,10 @@
-import React from "react";
-
-const Footer: React.FC = () => {
-  return (
-    <footer className="footer">
-      <div className="container">
-        <p>&copy; {new Date().getFullYear()} My Portfolio. All rights reserved.</p>
-      </div>
-    </footer>
-  );
-};
-
-export default Footer;
+export default function Footer() {
+    return (
+      <footer className="py-6 bg-black text-center text-gray-400 border-t border-white/10">
+        <p className="text-sm">
+          © {new Date().getFullYear()} Amitabh Sharma — All Rights Reserved.
+        </p>
+      </footer>
+    );
+  }
+  

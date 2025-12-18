@@ -1,29 +1,23 @@
-import React from "react";
 import Header from "./components/Header";
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+import Skills from "./sections/Skills";
+import Projects from "./sections/Projects";
+import Blog from "./sections/Blog";
+import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
-import About from "./components/About";
-import Blog from "./components/Blog";
-import Home from "./components/Home";
-import Skills from "./components/Skills";
-import Project from "./components/Project";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
-import "./style.css"; // Import your styles
 
-const App: React.FC = () => {
+export default function App() {
   return (
-    <div>
+    <div className="bg-black">
       <Header />
-      <Home />
+      <Hero />
       <About />
       <Skills />
-      <Experience />
-      <Project />
-      <Blog />
-      <Contact />
-      <Footer />
+      <Projects/>
+      <Blog/>
+      <Contact/>
+      <Footer/>
     </div>
   );
-};
-
-export default App;
+}
