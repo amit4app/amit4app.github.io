@@ -132,24 +132,24 @@ export default function About() {
             </div>
 
             {/* STATS */}
-            <div className="grid grid-cols-3 gap-4 text-center">
-              {[
-                { num: "12+", label: "Years Exp" },
-                { num: "50+", label: "Projects" },
-                { num: "25+", label: "Deployments" },
-              ].map((stat, i) => (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.8, delay: i * 0.2 }}
-                  className="p-3 rounded-lg bg-white/10 backdrop-blur-xl border border-white/10"
-                >
-                  <p className="text-2xl font-bold text-fuchsia-400">{stat.num}</p>
-                  <p className="text-gray-300 text-sm">{stat.label}</p>
-                </motion.div>
-              ))}
-            </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
+  {[
+    { num: "12+", label: "Years Exp" },
+    { num: "50+", label: "Projects" },
+    { num: "25+", label: "Deployments" },
+  ].map((stat, i) => (
+    <motion.div
+      key={i}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.8, delay: i * 0.2 }}
+      className="p-3 rounded-lg bg-white/10 backdrop-blur-xl border border-white/10"
+    >
+      <p className="text-2xl font-bold text-fuchsia-400">{stat.num}</p>
+      <p className="text-gray-300 text-sm break-words">{stat.label}</p>
+    </motion.div>
+  ))}
+</div>
 
             {/* RESUME BUTTON */}
             <a
